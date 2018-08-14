@@ -4,6 +4,6 @@
 
 def roll
   # code goes here
-  dice = 1 + rand(6)
+  dice = rand(1..6)
   return dice
 end
